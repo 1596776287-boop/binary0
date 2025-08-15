@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/cli.cpp.o -c /mnt/d/study/c++/binary/src/cli.cpp",
+  "file": "/mnt/d/study/c++/binary/src/cli.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/cli.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/crc32.cpp.o -c /mnt/d/study/c++/binary/src/crc32.cpp",
+  "file": "/mnt/d/study/c++/binary/src/crc32.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/crc32.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/database.cpp.o -c /mnt/d/study/c++/binary/src/database.cpp",
+  "file": "/mnt/d/study/c++/binary/src/database.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/database.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/file.cpp.o -c /mnt/d/study/c++/binary/src/file.cpp",
+  "file": "/mnt/d/study/c++/binary/src/file.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/file.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/io.cpp.o -c /mnt/d/study/c++/binary/src/io.cpp",
+  "file": "/mnt/d/study/c++/binary/src/io.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/io.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -Dbinarylib_EXPORTS -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -fPIC -o CMakeFiles/binarylib.dir/src/record.cpp.o -c /mnt/d/study/c++/binary/src/record.cpp",
+  "file": "/mnt/d/study/c++/binary/src/record.cpp",
+  "output": "CMakeFiles/binarylib.dir/src/record.cpp.o"
+},
+{
+  "directory": "/mnt/d/study/c++/binary/build",
+  "command": "/usr/bin/g++ -I/mnt/d/study/c++/binary/include -g -std=gnu++17 -o CMakeFiles/binary.dir/binary.cpp.o -c /mnt/d/study/c++/binary/binary.cpp",
+  "file": "/mnt/d/study/c++/binary/binary.cpp",
+  "output": "CMakeFiles/binary.dir/binary.cpp.o"
+}
+]
