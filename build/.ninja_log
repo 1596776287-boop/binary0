@@ -1,0 +1,10 @@
+# ninja log v5
+22	813	1755499779778329300	CMakeFiles/binarylib.dir/src/crc32.cpp.o	c6c7e347d7490c5b
+21	852	1755499779788619700	CMakeFiles/binarylib.dir/src/cli.cpp.o	cb2d985e0fa0931d
+27	857	1755499779791038700	CMakeFiles/binarylib.dir/src/io.cpp.o	dfae54e9d9cdca53
+30	863	1755499779808242300	CMakeFiles/binary.dir/binary.cpp.o	9464275f406913d0
+29	878	1755499779844606600	CMakeFiles/binarylib.dir/src/record.cpp.o	ba66a1ebe1700d4b
+26	885	1755499779846112900	CMakeFiles/binarylib.dir/src/file.cpp.o	6d736319832594ba
+24	921	1755499779890061300	CMakeFiles/binarylib.dir/src/database.cpp.o	3e8bcb340622afe9
+925	1199	1755499780178488900	/mnt/d/study/c++/binary/bin/libbinarylib.so	c2a82ea57aaa2ef5
+1200	1354	1755499780342821000	/mnt/d/study/c++/binary/bin/binary	4adf67b7d539e13

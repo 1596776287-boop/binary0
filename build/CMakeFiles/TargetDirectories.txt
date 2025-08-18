@@ -1,0 +1,4 @@
+/mnt/d/study/c++/binary/build/CMakeFiles/binarylib.dir
+/mnt/d/study/c++/binary/build/CMakeFiles/binary.dir
+/mnt/d/study/c++/binary/build/CMakeFiles/edit_cache.dir
+/mnt/d/study/c++/binary/build/CMakeFiles/rebuild_cache.dir
