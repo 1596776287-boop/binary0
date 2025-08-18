@@ -63,6 +63,7 @@ private:
     std::fstream file_;
 };
 void print_help();
+void encrypt(std::string in, std::string out, std::string key);
 
 
 #endif // CAGE_H
