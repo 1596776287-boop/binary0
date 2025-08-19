@@ -4,6 +4,7 @@
 #include <cstdint>
 #include <cstring>
 #include <string>
+#include <sys/types.h>
 #include <vector>
 #include <fstream>
 #include <iostream>
@@ -24,6 +25,7 @@ struct FileHeader {
     char     magic[8];       // "BINDATA" + NUL（或类似标识）
     uint32_t version;        // 版本号
     uint32_t header_crc;     // 头部校验（覆盖 magic 和 version，不含本字段）
+   
 };
 
 struct RecordHeader {
@@ -63,7 +65,7 @@ private:
     std::fstream file_;
 };
 void print_help();
-void encrypt(std::string in, std::string out, std::string key);
-
+void encryptenc(const std::string& in, const std::string& key);
+void encryptbin(const std::string& in, const std::string& key);
 
 #endif // CAGE_H

@@ -11,7 +11,13 @@
 int main(int argc, char* argv[]) {
     std::string dbpath = "records.bin";
     if (argc >= 2) dbpath = argv[1];
-
+    std::filesystem::path path(dbpath);
+    std::string pat = path.extension();
+    if (pat == ".enc") {
+    std::string decrypted = path.stem().string() + ".bin"; // 构造 .bin 文件名
+    encryptbin(dbpath, "060305");                         // 解密
+    dbpath = decrypted;                                   // 更新 dbpath                                        // 更新 path
+    }
     BinaryDB db(dbpath);
     if (!db.open()) {
         std::cerr << "Failed to open DB file: " << dbpath << "\n";
@@ -59,7 +65,9 @@ int main(int argc, char* argv[]) {
     
     }
     db.close();
-    encrypt("records.bin", "records.enc", "060305");
+    if (pat == ".enc")
+    encryptenc(dbpath, "060305");
+    std::cout<<path.extension() << " Database encrypted successfully.\n";
     return 0;
 }
 
