@@ -7,8 +7,11 @@ int main(int argc, char* argv[]){
     }
     std::string dbpath = argv[1];
     std::filesystem::path path(dbpath);
-    if(path.extension() == ".bin")
+    if(path.extension() == ".bin"){
     encryptenc(dbpath, "060305");
-std::cout<< "Database encrypted successfully.\n";
+    std::cout<< "Database encrypted successfully.\n";
+    }
+    else 
+    std::cout<<"Only .bin files can be encrypted.\n";
     return 0;
 }
