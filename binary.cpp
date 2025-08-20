@@ -5,6 +5,10 @@
 // CLI：add/list/get/del/help/quit
 // 构建：见文末 CMakeLists.txt 示例（把此文件命名为 binary_db.cpp）
 
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <filesystem>
 #include <cage.h>
 
 
@@ -12,7 +16,7 @@ int main(int argc, char* argv[]) {
     std::string dbpath = "records.bin";
     if (argc >= 2) dbpath = argv[1];
     std::filesystem::path path(dbpath);
-    std::string pat = path.extension();
+    std::string pat = path.extension().string();
     if (pat == ".enc") {
     std::string decrypted = path.stem().string() + ".bin"; // 构造 .bin 文件名
     encryptbin(dbpath, "060305");                         // 解密
